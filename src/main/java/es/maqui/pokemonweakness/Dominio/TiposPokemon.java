@@ -1,4 +1,4 @@
-/*
+package es.maqui.pokemonweakness.Dominio;/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -45,7 +45,7 @@ public class TiposPokemon {
 
     @Override
     public String toString() {
-        return "TiposPokemon{" + "id=" + p_tipopokemon + ", nombreElemento=" + nombreElemento + ", color=" + color + '}';
+        return "es.maqui.pokemonweakness.Dominio.TiposPokemon{" + "id=" + p_tipopokemon + ", nombreElemento=" + nombreElemento + ", color=" + color + '}';
     }
     
         

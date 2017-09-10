@@ -1,4 +1,4 @@
-
+package es.maqui.pokemonweakness.Dominio;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -48,7 +48,7 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        return "Pokemon{" + "p_pokemon=" + p_pokemon + ", name=" + nombre + ", a_tipos=" + a_tipos + '}';
+        return "es.maqui.pokemonweakness.Dominio.Pokemon{" + "p_pokemon=" + p_pokemon + ", name=" + nombre + ", a_tipos=" + a_tipos + '}';
     }
     
     
