@@ -9,24 +9,24 @@ package es.maqui.pokemonweakness.Dominio;
  *
  * @author MaQuiNa
  */
-public class Pokemon {
+public class PokemonPojo {
 
-    private int p_pokemon;
+    private int _ID;
     private String nombre;
     private int a_tipos;
 
-    public Pokemon(int p_pokemon, String name, int a_tipos) {
-        this.p_pokemon = p_pokemon;
+    public PokemonPojo(int _ID, String name, int a_tipos) {
+        this._ID = _ID;
         this.nombre = name;
         this.a_tipos = a_tipos;
     }
 
-    public int getP_pokemon() {
-        return p_pokemon;
+    public int get_ID() {
+        return _ID;
     }
 
-    public void setP_pokemon(int p_pokemon) {
-        this.p_pokemon = p_pokemon;
+    public void set_ID(int _ID) {
+        this._ID = _ID;
     }
 
     public String getNombre() {
@@ -48,7 +48,7 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        return "es.maqui.pokemonweakness.Dominio.Pokemon{" + "p_pokemon=" + p_pokemon + ", name=" + nombre + ", a_tipos=" + a_tipos + '}';
+        return "es.maqui.pokemonweakness.Dominio.PokemonPojo{" + "_ID=" + _ID + ", name=" + nombre + ", a_tipos=" + a_tipos + '}';
     }
     
     

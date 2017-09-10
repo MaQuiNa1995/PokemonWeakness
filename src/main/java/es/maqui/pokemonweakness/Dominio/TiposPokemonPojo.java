@@ -8,23 +8,23 @@ package es.maqui.pokemonweakness.Dominio;/*
  *
  * @author MaQuiNa
  */
-public class TiposPokemon {
-    private int p_tipopokemon;
+public class TiposPokemonPojo {
+    private int _ID;
     private String nombreElemento;
     private String color;
 
-    public TiposPokemon(int id, String nombreElemento, String color) {
-        this.p_tipopokemon = id;
+    public TiposPokemonPojo(int _ID, String nombreElemento, String color) {
+        this._ID = _ID;
         this.nombreElemento = nombreElemento;
         this.color = color;
     }
 
-    public int getP_tipopokemon() {
-        return p_tipopokemon;
+    public int get_ID() {
+        return _ID;
     }
 
-    public void setP_tipopokemon(int p_tipopokemon) {
-        this.p_tipopokemon = p_tipopokemon;
+    public void set_ID(int _ID) {
+        this._ID = _ID;
     }
 
     public String getNombreElemento() {
@@ -45,7 +45,7 @@ public class TiposPokemon {
 
     @Override
     public String toString() {
-        return "es.maqui.pokemonweakness.Dominio.TiposPokemon{" + "id=" + p_tipopokemon + ", nombreElemento=" + nombreElemento + ", color=" + color + '}';
+        return "es.maqui.pokemonweakness.Dominio.TiposPokemonPojo{" + "_ID=" + _ID + ", nombreElemento=" + nombreElemento + ", color=" + color + '}';
     }
     
         
